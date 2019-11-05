@@ -12,7 +12,6 @@ class Song
   def save
     @@all << self
   end
-
   
   def self.all
     @@all
@@ -29,7 +28,5 @@ class Song
   def artist_name
     self.artist&.name
   end
-  
-  
   
 end
