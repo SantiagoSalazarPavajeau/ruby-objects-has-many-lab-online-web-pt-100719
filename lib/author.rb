@@ -14,5 +14,10 @@ class Author
     post.author = self
   end
   
+  def add_post_by_title(title)
+    
+  end
+  
+  
   
 end
